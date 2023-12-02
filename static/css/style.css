@@ -1,0 +1,19 @@
+.container-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  background-color: lightgrey;
+}
+
+.img-size {
+  width: 700px;
+}
+
+.text-div {
+  padding: 20px;
+  width: 50%;
+}
+
+.text {
+  font-size: 20px;
+}

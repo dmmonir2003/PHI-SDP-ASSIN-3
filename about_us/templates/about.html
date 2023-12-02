@@ -1,0 +1,42 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+
+<div class="container mt-5">
+  <div class="row align-items-center">
+    <div class="col-lg-8 fw-bolder">
+      <h2 class="mb-4">About Us</h2>
+      <p class="">
+        Welcome to our culinary haven, where passion meets flavor! At
+        <span class="fs-2 fst-italic fw-bolder text-warning"
+          >Flavor Fusion Hub</span
+        >
+        , we are more than just a dining experience — we are a celebration of
+        gastronomy, a blend of cultures, and a dedication to crafting
+        extraordinary moments for our cherished guests.
+      </p>
+      <p>
+        Our journey began with a simple philosophy: to create a space where food
+        becomes an art, and every meal tells a unique story. From our expert
+        chefs who infuse creativity into every dish to our warm and inviting
+        ambiance, we strive to make every visit an unforgettable experience.
+      </p>
+      <p>
+        <span class="fs-2 fst-italic fw-bolder text-warning"
+          >Flavor Fusion Hub</span
+        >
+        is not just a restaurant; it's a destination for those who appreciate
+        the art of fine dining. Explore our diverse menu inspired by global
+        flavors, where each bite is a journey through culinary excellence. We
+        invite you to join us and be a part of our story.
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <img
+        src="{% static 'imge/about.jpg' %}"
+        class="img-fluid rounded"
+        alt="About Us Image"
+      />
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
